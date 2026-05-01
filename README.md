@@ -2,6 +2,7 @@
 
 Lightweight _development only_ node server that serves a web app, opens it in the browser, refreshes when html or javascript change, injects CSS changes using sockets, and has a fallback page when a route is not found.
 
+[![AI-Ready](https://img.shields.io/badge/AI--Ready-Full-green?logo=githubcopilot)](https://github.com/johnpapa/ai-ready)
 [![Dependency Status](https://david-dm.org/johnpapa/lite-server.svg)](https://david-dm.org/johnpapa/lite-server)
 [![npm version](https://badge.fury.io/js/lite-server.svg)](http://badge.fury.io/js/lite-server)
 [![Build Status](https://travis-ci.org/johnpapa/lite-server.svg?branch=main)](https://travis-ci.org/johnpapa/lite-server) [![Greenkeeper badge](https://badges.greenkeeper.io/johnpapa/lite-server.svg)](https://greenkeeper.io/)

@@ -1,0 +1,72 @@
+name: Bug Report
+description: Report a bug in lite-server
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out the sections below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the bug — what happened and what you expected.
+      placeholder: "When I run lite-server with my bs-config.json, it..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps to reproduce the behavior.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: input
+    id: lite-server-version
+    attributes:
+      label: lite-server version
+      placeholder: "e.g., 2.6.1"
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node.js version
+      placeholder: "e.g., 20.10.0"
+    validations:
+      required: true
+
+  - type: input
+    id: npm-version
+    attributes:
+      label: npm version
+      placeholder: "e.g., 10.2.3"
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "e.g., macOS 14.2, Windows 11, Ubuntu 22.04"
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser (if applicable)
+      placeholder: "e.g., Chrome 120, Firefox 121"
+
+  - type: textarea
+    id: config
+    attributes:
+      label: BrowserSync config (bs-config.json or bs-config.js)
+      description: Paste your custom config file contents if you have one.
+      render: json
